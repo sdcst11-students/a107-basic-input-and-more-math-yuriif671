@@ -18,3 +18,7 @@ Enter actual : 14
 The percent difference is 16.67%
 ```
 '''
+
+a = int(input("First num: "))
+b = int(input("First num: "))
+print(f"The percent difference is {round((b - a) / abs(a) * 100, 2)}%")

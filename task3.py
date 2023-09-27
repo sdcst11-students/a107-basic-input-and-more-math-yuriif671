@@ -28,3 +28,8 @@ Your half perimeter is 14.5
 The area of your triangle is 29.342
 '''
 
+a = int(input("Enter side a: "))
+b = int(input("Enter side b: "))
+c = int(input("Enter side c: "))
+
+print((a + b + c) / 2, a * b / 2)
